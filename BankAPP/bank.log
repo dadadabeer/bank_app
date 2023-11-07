@@ -1,0 +1,253 @@
+2023-09-30 17:19:59,723|ERROR|Created account: Savings#000000001
+2023-09-30 17:23:07,074|ERROR|Created account: Savings#000000001
+2023-09-30 17:23:14,613|ERROR|Created transaction: Savings#000000001, 150.00
+2023-09-30 17:35:27,755|ERROR|Created account: Savings#000000001
+2023-09-30 17:35:36,097|ERROR|Created transaction: Savings#000000001, 150.00
+2023-09-30 17:35:37,558|ERROR|Triggered interest and fees
+2023-09-30 17:35:41,088|ERROR|Saved to bank.pickle
+2023-09-30 17:36:23,578|ERROR|Loaded from bank.pickle
+2023-09-30 17:40:03,209|ERROR|Created account: Checking#000000001
+2023-09-30 17:40:09,035|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 17:40:28,824|ERROR|Created account: Savings#000000001
+2023-09-30 17:40:41,742|ERROR|Created transaction: Savings#000000001, 200.00
+2023-09-30 17:40:44,033|ERROR|Triggered interest and fees
+2023-09-30 17:48:40,982|ERROR|Created account: Checking#000000001
+2023-09-30 17:48:46,292|ERROR|Created transaction: Checking#000000001, 150.00
+2023-09-30 17:48:48,116|ERROR|Triggered interest and fees
+2023-09-30 17:55:49,529|ERROR|Created account: Checking#000000001
+2023-09-30 17:55:54,874|ERROR|Created transaction: Checking#000000001, 150.00
+2023-09-30 17:55:56,380|ERROR|Triggered interest and fees
+2023-09-30 17:56:16,884|ERROR|Created account: Checking#000000001
+2023-09-30 17:56:25,330|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 17:57:01,154|ERROR|Created transaction: Checking#000000001, 200.00
+2023-09-30 17:57:06,567|ERROR|Triggered interest and fees
+2023-09-30 17:57:37,643|ERROR|Created account: Checking#000000001
+2023-09-30 17:57:42,502|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 17:59:47,155|ERROR|Created account: Checking#000000001
+2023-09-30 17:59:52,263|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 17:59:54,044|ERROR|Triggered interest and fees
+2023-09-30 18:00:26,946|ERROR|Triggered interest and fees
+2023-09-30 18:00:29,912|ERROR|Triggered interest and fees
+2023-09-30 18:00:30,973|ERROR|Triggered interest and fees
+2023-09-30 18:00:31,545|ERROR|Triggered interest and fees
+2023-09-30 18:02:21,472|ERROR|Created account: Checking#000000001
+2023-09-30 18:02:41,592|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 18:02:44,069|ERROR|Triggered interest and fees
+2023-09-30 18:13:09,408|ERROR|Created account: Checking#000000001
+2023-09-30 18:13:14,406|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 18:16:08,003|ERROR|Created account: Checking#000000001
+2023-09-30 18:16:15,035|ERROR|Created transaction: Checking#000000001, 50.00
+2023-09-30 18:16:17,096|ERROR|Triggered interest and fees
+2023-09-30 18:16:27,370|ERROR|Triggered interest and fees
+2023-09-30 18:18:18,150|ERROR|Created account: Checking#000000001
+2023-09-30 18:18:36,892|ERROR|Created transaction: Checking#000000001, 25.00
+2023-09-30 18:18:38,730|ERROR|Triggered interest and fees
+2023-09-30 18:19:41,707|ERROR|Created account: Savings#000000001
+2023-09-30 18:19:49,773|ERROR|Created transaction: Savings#000000001, 250.00
+2023-09-30 18:19:53,976|ERROR|Triggered interest and fees
+2023-09-30 18:20:03,482|ERROR|Created transaction: Savings#000000001, 250.00
+2023-09-30 18:21:56,548|ERROR|Created transaction: Savings#000000001, 100.08
+2023-09-30 18:23:43,346|ERROR|Created account: 000000001
+2023-09-30 18:23:54,812|ERROR|Created account: 000000002
+2023-09-30 18:26:03,675|ERROR|Created account: Savings#000000001
+2023-09-30 18:27:50,143|ERROR|Created account: Savings#000000001
+2023-09-30 18:27:58,468|ERROR|Created transaction: Savings#000000001, 100.075
+2023-09-30 19:12:23|DEBUG|Created account: Savings#000000001
+2023-09-30 19:12:29|DEBUG|Created transaction: Savings#000000001, 50.0
+2023-09-30 19:12:31|DEBUG|Triggered interest and fees
+2023-09-30 19:12:48|DEBUG|Created account: Checking#000000002
+2023-09-30 19:12:55|DEBUG|Created transaction: Checking#000000002, 40.0
+2023-09-30 19:13:13|DEBUG|Triggered interest and fees
+2023-09-30 19:18:46|DEBUG|Triggered interest and fees
+2023-09-30 19:30:11|DEBUG|Created account: Checking#000000001
+2023-09-30 19:30:18|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 19:31:07|DEBUG|Created account: Checking#000000001
+2023-09-30 19:31:14|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 19:31:16|DEBUG|Triggered interest and fees
+2023-09-30 19:31:33|DEBUG|Created account: Checking#000000001
+2023-09-30 19:31:40|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:31:43|DEBUG|Triggered interest and fees
+2023-09-30 19:32:03|DEBUG|Triggered interest and fees
+2023-09-30 19:32:40|DEBUG|Created account: Checking#000000001
+2023-09-30 19:32:48|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:32:50|DEBUG|Triggered interest and fees
+2023-09-30 19:32:57|DEBUG|Triggered interest and fees
+2023-09-30 19:33:02|DEBUG|Created account: Savings#000000002
+2023-09-30 19:33:16|DEBUG|Created transaction: Savings#000000002, 55.0
+2023-09-30 19:33:56|DEBUG|Created account: Savings#000000001
+2023-09-30 19:34:04|DEBUG|Created transaction: Savings#000000001, 150.0
+2023-09-30 19:34:06|DEBUG|Triggered interest and fees
+2023-09-30 19:35:36|DEBUG|Created account: Checking#000000001
+2023-09-30 19:35:48|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:35:50|DEBUG|Triggered interest and fees
+2023-09-30 19:35:58|DEBUG|Triggered interest and fees
+2023-09-30 19:44:22|DEBUG|Created account: Checking#000000001
+2023-09-30 19:44:28|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:44:30|DEBUG|Triggered interest and fees
+2023-09-30 19:45:56|DEBUG|Created account: Checking#000000001
+2023-09-30 19:46:04|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:46:06|DEBUG|Triggered interest and fees
+2023-09-30 19:46:07|DEBUG|Triggered interest and fees
+2023-09-30 19:52:53|DEBUG|Created account: Checking#000000001
+2023-09-30 19:53:01|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:53:02|DEBUG|Triggered interest and fees
+2023-09-30 19:56:13|DEBUG|Created account: Checking#000000001
+2023-09-30 19:56:22|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 19:56:23|DEBUG|Triggered interest and fees
+2023-09-30 20:00:00|DEBUG|Created account: Checking#000000001
+2023-09-30 20:00:06|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 20:00:07|DEBUG|Triggered interest and fees
+2023-09-30 20:01:07|DEBUG|Created account: Checking#000000001
+2023-09-30 20:01:12|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 20:01:14|DEBUG|Triggered interest and fees
+2023-09-30 20:01:38|DEBUG|Created account: Checking#000000001
+2023-09-30 20:01:44|DEBUG|Created transaction: Checking#000000001, 40.0
+2023-09-30 20:01:50|DEBUG|Triggered interest and fees
+2023-09-30 20:04:25|DEBUG|Created account: Checking#000000001
+2023-09-30 20:04:30|DEBUG|Created account: Savings#000000002
+2023-09-30 20:04:37|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 20:04:38|DEBUG|Triggered interest and fees
+2023-09-30 20:22:58|DEBUG|Created account: Checking#000000001
+2023-09-30 20:54:22|DEBUG|Created account: Savings#000000001
+2023-09-30 20:54:29|DEBUG|Created transaction: Savings#000000001, 50.0
+2023-09-30 20:54:32|DEBUG|Triggered interest and fees
+2023-09-30 20:55:11|DEBUG|Created account: Savings#000000001
+2023-09-30 20:55:24|DEBUG|Created transaction: Savings#000000001, 50.0
+2023-09-30 20:55:26|DEBUG|Triggered interest and fees
+2023-09-30 20:55:38|DEBUG|Created transaction: Savings#000000001, 250.0
+2023-09-30 20:55:43|DEBUG|Triggered interest and fees
+2023-09-30 20:56:02|DEBUG|Created account: Checking#000000001
+2023-09-30 20:56:10|DEBUG|Created transaction: Checking#000000001, 60.0
+2023-09-30 20:56:12|DEBUG|Triggered interest and fees
+2023-09-30 20:56:27|DEBUG|Created transaction: Checking#000000001, 250.0
+2023-09-30 20:58:49|DEBUG|Created account: Checking#000000001
+2023-09-30 20:59:02|DEBUG|Created transaction: Checking#000000001, 200.0
+2023-09-30 20:59:04|DEBUG|Triggered interest and fees
+2023-09-30 20:59:05|DEBUG|Triggered interest and fees
+2023-09-30 21:00:23|DEBUG|Created account: Checking#000000001
+2023-09-30 21:00:33|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:00:37|DEBUG|Triggered interest and fees
+2023-09-30 21:00:37|DEBUG|Triggered interest and fees
+2023-09-30 21:01:48|DEBUG|Created account: Checking#000000001
+2023-09-30 21:01:55|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:01:58|DEBUG|Triggered interest and fees
+2023-09-30 21:04:40|DEBUG|Created account: Checking#000000001
+2023-09-30 21:04:47|DEBUG|Created transaction: Checking#000000001, 200.0
+2023-09-30 21:04:48|DEBUG|Triggered interest and fees
+2023-09-30 21:05:18|DEBUG|Created account: Checking#000000001
+2023-09-30 21:05:25|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:05:32|DEBUG|Triggered interest and fees
+2023-09-30 21:05:50|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:06:14|DEBUG|Created transaction: Checking#000000001, 20.0
+2023-09-30 21:06:32|DEBUG|Created transaction: Checking#000000001, -240.0
+2023-09-30 21:07:33|DEBUG|Created transaction: Checking#000000001, 200.0
+2023-09-30 21:07:54|DEBUG|Created account: Checking#000000001
+2023-09-30 21:08:01|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:08:03|DEBUG|Triggered interest and fees
+2023-09-30 21:08:15|DEBUG|Created transaction: Checking#000000001, 60.0
+2023-09-30 21:10:18|DEBUG|Created account: Checking#000000001
+2023-09-30 21:10:35|DEBUG|Created transaction: Checking#000000001, 100.0
+2023-09-30 21:10:40|DEBUG|Triggered interest and fees
+2023-09-30 21:10:52|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:11:21|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:14:26|DEBUG|Created account: Checking#000000001
+2023-09-30 21:14:43|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:15:38|DEBUG|Created account: Checking#000000001
+2023-09-30 21:15:48|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:16:13|DEBUG|Created account: Checking#000000001
+2023-09-30 21:16:22|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:17:05|DEBUG|Created account: Checking#000000001
+2023-09-30 21:17:13|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:17:15|DEBUG|Triggered interest and fees
+2023-09-30 21:17:27|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 21:24:21|DEBUG|Created account: Checking#000000001
+2023-09-30 21:24:39|DEBUG|Created transaction: Checking#000000001, 100.0
+2023-09-30 21:24:41|DEBUG|Triggered interest and fees
+2023-09-30 21:24:54|DEBUG|Created transaction: Checking#000000001, 50.0
+2023-09-30 21:32:21|DEBUG|Created account: Checking#000000001
+2023-09-30 21:32:27|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:32:28|DEBUG|Triggered interest and fees
+2023-09-30 21:32:29|DEBUG|Triggered interest and fees
+2023-09-30 21:32:30|DEBUG|Triggered interest and fees
+2023-09-30 21:34:17|DEBUG|Created account: Checking#000000001
+2023-09-30 21:34:30|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:34:33|DEBUG|Triggered interest and fees
+2023-09-30 21:34:34|DEBUG|Triggered interest and fees
+2023-09-30 21:34:35|DEBUG|Triggered interest and fees
+2023-09-30 21:35:05|DEBUG|Created account: Checking#000000001
+2023-09-30 21:35:13|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:35:14|DEBUG|Triggered interest and fees
+2023-09-30 21:35:34|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 21:41:47|DEBUG|Created account: Checking#000000001
+2023-09-30 21:41:55|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 21:41:56|DEBUG|Triggered interest and fees
+2023-09-30 21:42:06|DEBUG|Created transaction: Checking#000000001, 200.0
+2023-09-30 22:07:19|DEBUG|Created account: Checking#000000001
+2023-09-30 22:07:26|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 22:07:30|DEBUG|Triggered interest and fees
+2023-09-30 22:07:31|DEBUG|Triggered interest and fees
+2023-09-30 22:07:31|DEBUG|Triggered interest and fees
+2023-09-30 22:07:32|DEBUG|Triggered interest and fees
+2023-09-30 22:07:33|DEBUG|Triggered interest and fees
+2023-09-30 22:07:47|DEBUG|Created transaction: Checking#000000001, 20.0
+2023-09-30 22:07:48|DEBUG|Triggered interest and fees
+2023-09-30 22:07:50|DEBUG|Triggered interest and fees
+2023-09-30 22:09:49|DEBUG|Created account: Checking#000000001
+2023-09-30 22:10:03|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 22:10:16|DEBUG|Created transaction: Checking#000000001, 20.0
+2023-09-30 22:10:19|DEBUG|Triggered interest and fees
+2023-09-30 22:10:36|DEBUG|Created transaction: Checking#000000001, 25.0
+2023-09-30 22:13:30|DEBUG|Created account: Checking#000000001
+2023-09-30 22:13:36|DEBUG|Created transaction: Checking#000000001, 120.0
+2023-09-30 22:13:57|DEBUG|Triggered interest and fees
+2023-09-30 22:14:42|DEBUG|Created transaction: Checking#000000001, 250.0
+2023-09-30 22:22:07|DEBUG|Created account: Checking#000000001
+2023-09-30 22:22:13|DEBUG|Created transaction: Checking#000000001, 100.0
+2023-09-30 22:22:15|DEBUG|Triggered interest and fees
+2023-09-30 22:22:28|DEBUG|Created transaction: Checking#000000001, 200.0
+2023-09-30 22:22:31|DEBUG|Triggered interest and fees
+2023-09-30 22:47:10|DEBUG|Created account: Savings#000000001
+2023-09-30 22:47:18|DEBUG|Created transaction: Savings#000000001, 4000.0
+2023-09-30 22:50:11|DEBUG|Saved to bank.pickle
+2023-09-30 22:50:13|DEBUG|Loaded from bank.pickle
+2023-09-30 22:50:18|DEBUG|Saved to bank.pickle
+2023-09-30 22:50:31|DEBUG|Loaded from bank.pickle
+2023-09-30 23:10:05|DEBUG|Created account: Checking#000000001
+2023-09-30 23:10:14|DEBUG|Created transaction: Checking#000000001, 150.0
+2023-09-30 23:10:16|DEBUG|Triggered interest and fees
+2023-09-30 23:10:36|DEBUG|Created transaction: Checking#000000001, 3200.0
+2023-09-30 23:11:18|DEBUG|Created account: Checking#000000001
+2023-09-30 23:11:25|DEBUG|Created transaction: Checking#000000001, 1200.0
+2023-09-30 23:33:50|DEBUG|Created account: Savings#000000001
+2023-09-30 23:34:03|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:34:09|DEBUG|Triggered interest and fees
+2023-09-30 23:35:11|DEBUG|Created account: Savings#000000001
+2023-09-30 23:35:16|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:35:27|DEBUG|Triggered interest and fees
+2023-09-30 23:36:20|DEBUG|Saved to bank.pickle
+2023-09-30 23:36:25|DEBUG|Loaded from bank.pickle
+2023-09-30 23:36:35|DEBUG|Created transaction: Savings#000000001, 250.0
+2023-09-30 23:36:38|DEBUG|Triggered interest and fees
+2023-09-30 23:37:25|DEBUG|Loaded from bank.pickle
+2023-09-30 23:37:44|DEBUG|Created transaction: Savings#000000001, 200.0
+2023-09-30 23:38:01|DEBUG|Triggered interest and fees
+2023-09-30 23:47:22|DEBUG|Created account: Savings#000000001
+2023-09-30 23:47:33|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:47:35|DEBUG|Triggered interest and fees
+2023-09-30 23:48:59|DEBUG|Created account: Savings#000000001
+2023-09-30 23:49:04|DEBUG|Created transaction: Savings#000000001, 120.0
+2023-09-30 23:49:08|DEBUG|Triggered interest and fees
+2023-09-30 23:50:18|DEBUG|Created account: Savings#000000001
+2023-09-30 23:50:25|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:50:26|DEBUG|Triggered interest and fees
+2023-09-30 23:50:49|DEBUG|Loaded from bank.pickle
+2023-09-30 23:51:19|DEBUG|Created account: Savings#000000001
+2023-09-30 23:51:23|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:51:25|DEBUG|Triggered interest and fees
+2023-09-30 23:51:56|DEBUG|Loaded from bank.pickle
+2023-09-30 23:52:00|DEBUG|Created account: Savings#000000001
+2023-09-30 23:52:07|DEBUG|Created transaction: Savings#000000001, 100.0
+2023-09-30 23:52:08|DEBUG|Triggered interest and fees
+2023-09-30 23:52:08|DEBUG|Created transaction: Savings#000000001, 0.41
+2023-10-12 18:46:03|DEBUG|Created account: Checking#000000001
+2023-10-12 18:46:14|DEBUG|Created transaction: Checking#000000001, 4.0

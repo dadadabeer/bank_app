@@ -1,0 +1,492 @@
+2023-10-13 11:53:48|ERROR|InvalidRequestError: "When initializing mapper Mapper[Bank(bank)], expression 'Account' failed to locate a name ('Account'). If this is a class name, consider adding this relationship() to the <class 'bank.Bank'> class after both dependent classes have been defined."
+2023-10-13 11:56:02|ERROR|InvalidRequestError: "When initializing mapper Mapper[Bank(bank)], expression 'Account' failed to locate a name ('Account'). If this is a class name, consider adding this relationship() to the <class 'bank.Bank'> class after both dependent classes have been defined."
+2023-10-13 11:56:13|ERROR|InvalidRequestError: "When initializing mapper Mapper[Bank(bank)], expression 'Account' failed to locate a name ('Account'). If this is a class name, consider adding this relationship() to the <class 'bank.Bank'> class after both dependent classes have been defined."
+2023-10-13 11:59:05|ERROR|InvalidRequestError: "When initializing mapper Mapper[Bank(bank)], expression 'Account' failed to locate a name ('Account'). If this is a class name, consider adding this relationship() to the <class 'bank.Bank'> class after both dependent classes have been defined."
+2023-10-13 12:06:15|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:09:07|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:13:58|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:15:32|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:16:38|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:18:07|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:20:36|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:23:05|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:25:02|ERROR|NoReferencedColumnError: "Could not initialize target column for ForeignKey 'bank._id' on table 'account': table 'bank' has no column named '_id'"
+2023-10-13 12:25:51|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 12:29:15|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-13 12:29:23|ERROR|TypeError: 'Bank.add_account() takes 2 positional arguments but 3 were given'
+2023-10-13 15:26:48|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 15:39:51|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 15:40:12|ERROR|UnmappedClassError: "Class 'sqlalchemy.engine.base.Transaction' is not mapped"
+2023-10-13 15:41:16|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:42:30|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:43:54|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 15:45:37|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:47:44|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-13 15:47:53|ERROR|TypeError: 'Bank.add_account() takes 2 positional arguments but 3 were given'
+2023-10-13 15:52:04|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:52:07|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-13 15:56:24|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:56:29|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-13 15:58:34|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 15:58:38|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-13 16:01:24|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 16:01:27|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-13 23:33:57|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:34:23|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:34:47|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:34:53|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:35:28|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:36:06|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account.transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:44:20|ERROR|NoForeignKeysError: "Could not determine join condition between parent/child tables on relationship Account._transactions - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression."
+2023-10-13 23:46:43|DEBUG|Loaded Bank instance from bank.db
+2023-10-13 23:46:48|ERROR|OperationalError: '(sqlite3.OperationalError) no such column: account._account_number\n[SQL: SELECT account._id AS account__id, account._account_number AS account__account_number, account._type AS account__type, account._balance AS account__balance, account._interest_rate AS account__interest_rate, account._bank_id AS account__bank_id, account._daily_limit AS account__daily_limit, account._monthly_limit AS account__monthly_limit, account._balance_threshold AS account__balance_threshold, account._low_balance_fee AS account__low_balance_fee \nFROM account \nWHERE ? = account._bank_id]\n[parameters: (1,)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)'
+2023-10-13 23:50:16|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-13 23:50:22|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-14 00:00:58|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:01:01|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-14 00:05:06|ERROR|NoReferencedColumnError: "Could not initialize target column for ForeignKey 'bank.id' on table 'account': table 'bank' has no column named 'id'"
+2023-10-14 00:05:33|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:05:36|ERROR|AttributeError: "'Bank' object has no attribute 'accounts'"
+2023-10-14 00:12:17|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:12:20|ERROR|AttributeError: "'Bank' object has no attribute 'accounts'"
+2023-10-14 00:13:12|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:13:15|ERROR|TypeError: "__init__() got an unexpected keyword argument 'account_number'"
+2023-10-14 00:15:12|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:15:16|ERROR|TypeError: "__init__() got an unexpected keyword argument '_account_number'"
+2023-10-14 00:15:38|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:15:41|DEBUG|Created account: 1
+2023-10-14 00:15:41|DEBUG|Saved to bank.db
+2023-10-14 00:17:12|ERROR|TypeError: "Account.add_transaction() missing 1 required positional argument: 'date'"
+2023-10-14 00:21:04|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 00:21:07|DEBUG|Created account: 1
+2023-10-14 00:21:07|DEBUG|Saved to bank.db
+2023-10-14 00:21:19|DEBUG|Created transaction: 1, 150
+2023-10-14 00:21:19|DEBUG|Added transaction to bank.db
+2023-10-14 20:48:07|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 20:48:10|DEBUG|Created account: 1
+2023-10-14 20:48:10|DEBUG|Saved to bank.db
+2023-10-14 20:48:13|DEBUG|Queried from bank.db
+2023-10-14 20:54:53|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-14 20:54:56|DEBUG|Created account: 1
+2023-10-14 20:54:56|DEBUG|Saved to bank.db
+2023-10-17 23:19:43|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-17 23:19:51|DEBUG|Created account: 1
+2023-10-17 23:19:51|DEBUG|Saved to bank.db
+2023-10-17 23:20:00|DEBUG|Created transaction: 1, 120
+2023-10-17 23:20:00|DEBUG|Added transaction to bank.db
+2023-10-17 23:20:02|ERROR|TypeError: "unsupported operand type(s) for *: 'decimal.Decimal' and 'float'"
+2023-10-17 23:20:16|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:14:21|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:14:31|DEBUG|Created account: 1
+2023-10-18 08:14:31|DEBUG|Saved to bank.db
+2023-10-18 08:14:38|DEBUG|Created transaction: 1, 100
+2023-10-18 08:14:38|DEBUG|Added transaction to bank.db
+2023-10-18 08:14:40|ERROR|TypeError: "Account.add_transaction() missing 1 required positional argument: 'session'"
+2023-10-18 08:21:36|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:21:42|DEBUG|Created account: 1
+2023-10-18 08:21:42|DEBUG|Saved to bank.db
+2023-10-18 08:21:47|DEBUG|Created transaction: 1, 100
+2023-10-18 08:21:47|DEBUG|Added transaction to bank.db
+2023-10-18 08:21:48|ERROR|TypeError: "Account.assess_interest_and_fees() missing 1 required positional argument: 'session'"
+2023-10-18 08:23:40|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:23:43|DEBUG|Created account: 1
+2023-10-18 08:23:43|DEBUG|Saved to bank.db
+2023-10-18 08:23:47|DEBUG|Created transaction: 1, 100
+2023-10-18 08:23:47|DEBUG|Added transaction to bank.db
+2023-10-18 08:23:48|ERROR|TypeError: "Account.assess_interest_and_fees() missing 1 required positional argument: 'session'"
+2023-10-18 08:26:04|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:26:09|DEBUG|Created account: 1
+2023-10-18 08:26:09|DEBUG|Saved to bank.db
+2023-10-18 08:26:16|DEBUG|Created transaction: 1, 100
+2023-10-18 08:26:16|DEBUG|Added transaction to bank.db
+2023-10-18 08:26:19|DEBUG|Created transaction: 1, 0.410000000
+2023-10-18 08:26:19|DEBUG|Triggered interest and fees
+2023-10-18 08:26:43|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:26:46|DEBUG|Created account: 1
+2023-10-18 08:26:46|DEBUG|Saved to bank.db
+2023-10-18 08:26:52|DEBUG|Created transaction: 1, 100
+2023-10-18 08:26:52|DEBUG|Added transaction to bank.db
+2023-10-18 08:26:54|DEBUG|Created transaction: 1, 0.410000000
+2023-10-18 08:26:54|DEBUG|Triggered interest and fees
+2023-10-18 08:27:00|DEBUG|Created account: 2
+2023-10-18 08:27:00|DEBUG|Saved to bank.db
+2023-10-18 08:27:11|DEBUG|Created transaction: 2, 120
+2023-10-18 08:27:11|DEBUG|Added transaction to bank.db
+2023-10-18 08:27:13|DEBUG|Created transaction: 2, 0.0960000000
+2023-10-18 08:27:13|DEBUG|Triggered interest and fees
+2023-10-18 08:28:13|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 08:28:16|DEBUG|Created account: 1
+2023-10-18 08:28:16|DEBUG|Saved to bank.db
+2023-10-18 08:28:22|DEBUG|Created transaction: 1, 120
+2023-10-18 08:28:22|DEBUG|Added transaction to bank.db
+2023-10-18 08:28:24|DEBUG|Created transaction: 1, 0.492000000
+2023-10-18 08:28:24|DEBUG|Triggered interest and fees
+2023-10-18 08:31:24|DEBUG|Created transaction: 1, 200
+2023-10-18 08:31:24|DEBUG|Added transaction to bank.db
+2023-10-18 14:17:15|DEBUG|Loaded from bank.db
+2023-10-18 14:18:27|DEBUG|Loaded from bank.db
+2023-10-18 14:19:12|ERROR|TypeError: TypeError('Bank.add_account() takes 3 positional arguments but 4 were given')
+2023-10-18 15:02:13|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:02:58|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:03:45|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:03:53|ERROR|RuntimeError: RuntimeError("can't re-enter readline")
+2023-10-18 15:03:57|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:10:19|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:12:01|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 15:12:54|DEBUG|Saved to bank.db
+2023-10-18 15:12:56|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 19:58:11|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 19:58:35|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 19:58:37|ERROR|TclError: TclError('cannot use geometry manager pack inside . which already has slaves managed by grid')
+2023-10-18 20:00:26|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:08:47|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:09:21|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:09:24|ERROR|AttributeError: AttributeError("'BankGUI' object has no attribute '_open_account_frame'")
+2023-10-18 20:15:25|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:15:37|DEBUG|Created account: 1
+2023-10-18 20:15:37|DEBUG|Saved to bank.db
+2023-10-18 20:16:29|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:17:45|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:21:05|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:21:07|ERROR|TclError: TclError('cannot use geometry manager pack inside . which already has slaves managed by grid')
+2023-10-18 20:26:26|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:33:06|DEBUG|Loaded from bank.db
+2023-10-18 20:33:29|DEBUG|Loaded from bank.db
+2023-10-18 20:35:13|DEBUG|Loaded from bank.db
+2023-10-18 20:36:15|DEBUG|Loaded from bank.db
+2023-10-18 20:36:23|DEBUG|Created account: 1
+2023-10-18 20:36:23|DEBUG|Saved to bank.db
+2023-10-18 20:37:02|ERROR|AttributeError: AttributeError("'BankGUI' object has no attribute '_select'")
+2023-10-18 20:41:03|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:41:10|DEBUG|Created account: 1
+2023-10-18 20:41:10|DEBUG|Saved to bank.db
+2023-10-18 20:41:33|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:44:59|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:45:32|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:46:59|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:47:02|DEBUG|Created account: 1
+2023-10-18 20:47:02|DEBUG|Saved to bank.db
+2023-10-18 20:47:06|ERROR|TypeError: TypeError('BankGUI._select() takes 1 positional argument but 2 were given')
+2023-10-18 20:53:30|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-18 20:53:35|DEBUG|Created account: 1
+2023-10-18 20:53:35|DEBUG|Saved to bank.db
+2023-10-19 11:33:01|ERROR|KeyboardInterrupt: KeyboardInterrupt()
+2023-10-19 11:33:29|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:33:52|DEBUG|Created account: 1
+2023-10-19 11:33:52|DEBUG|Saved to bank.db
+2023-10-19 11:34:01|DEBUG|Created account: 2
+2023-10-19 11:34:01|DEBUG|Saved to bank.db
+2023-10-19 11:34:23|DEBUG|Created account: 3
+2023-10-19 11:34:23|DEBUG|Saved to bank.db
+2023-10-19 11:35:16|ERROR|KeyboardInterrupt: KeyboardInterrupt()
+2023-10-19 11:35:19|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:35:25|DEBUG|Created account: 1
+2023-10-19 11:35:25|DEBUG|Saved to bank.db
+2023-10-19 11:35:30|DEBUG|Created account: 2
+2023-10-19 11:35:30|DEBUG|Saved to bank.db
+2023-10-19 11:35:54|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:35:57|DEBUG|Created account: 1
+2023-10-19 11:35:57|DEBUG|Saved to bank.db
+2023-10-19 11:38:53|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:38:57|DEBUG|Created account: 1
+2023-10-19 11:38:57|DEBUG|Saved to bank.db
+2023-10-19 11:39:03|DEBUG|Created account: 2
+2023-10-19 11:39:03|DEBUG|Saved to bank.db
+2023-10-19 11:39:03|ERROR|AttributeError: AttributeError("'SavingsAccount' object has no attribute 'destroy'")
+2023-10-19 11:39:08|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:39:14|DEBUG|Created account: 1
+2023-10-19 11:39:14|DEBUG|Saved to bank.db
+2023-10-19 11:39:20|DEBUG|Created account: 2
+2023-10-19 11:39:20|DEBUG|Saved to bank.db
+2023-10-19 11:39:20|ERROR|AttributeError: AttributeError("'CheckingAccount' object has no attribute 'destroy'")
+2023-10-19 11:43:04|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:43:26|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:45:38|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:45:41|DEBUG|Created account: 1
+2023-10-19 11:45:41|DEBUG|Saved to bank.db
+2023-10-19 11:45:47|DEBUG|Created account: 2
+2023-10-19 11:45:47|DEBUG|Saved to bank.db
+2023-10-19 11:46:26|ERROR|KeyboardInterrupt: KeyboardInterrupt()
+2023-10-19 11:46:30|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:46:34|DEBUG|Created account: 1
+2023-10-19 11:46:34|DEBUG|Saved to bank.db
+2023-10-19 11:46:54|DEBUG|Created account: 2
+2023-10-19 11:46:54|DEBUG|Saved to bank.db
+2023-10-19 11:50:12|DEBUG|Created transaction: 1, 100
+2023-10-19 11:50:12|DEBUG|Added transaction to bank.db
+2023-10-19 11:52:20|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:52:24|DEBUG|Created account: 1
+2023-10-19 11:52:24|DEBUG|Saved to bank.db
+2023-10-19 11:52:24|ERROR|UnboundLocalError: UnboundLocalError("cannot access local variable 'acc_btn' where it is not associated with a value")
+2023-10-19 11:53:00|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:53:03|DEBUG|Created account: 1
+2023-10-19 11:53:03|DEBUG|Saved to bank.db
+2023-10-19 11:53:03|ERROR|UnboundLocalError: UnboundLocalError("cannot access local variable 'acc_btn' where it is not associated with a value")
+2023-10-19 11:54:56|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:54:59|DEBUG|Created account: 1
+2023-10-19 11:54:59|DEBUG|Saved to bank.db
+2023-10-19 11:55:06|DEBUG|Created account: 2
+2023-10-19 11:55:06|DEBUG|Saved to bank.db
+2023-10-19 11:55:08|ERROR|TclError: TclError('invalid command name ".!frame.!canvas2.!frame.!button"')
+2023-10-19 11:58:12|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:58:32|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 11:58:35|DEBUG|Created account: 1
+2023-10-19 11:58:35|DEBUG|Saved to bank.db
+2023-10-19 11:58:39|DEBUG|Created account: 2
+2023-10-19 11:58:39|DEBUG|Saved to bank.db
+2023-10-19 12:07:31|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 12:07:34|DEBUG|Created account: 1
+2023-10-19 12:07:34|DEBUG|Saved to bank.db
+2023-10-19 12:07:38|DEBUG|Created account: 2
+2023-10-19 12:07:38|DEBUG|Saved to bank.db
+2023-10-19 12:07:39|ERROR|TypeError: TypeError("BankGUI._add_transaction() missing 2 required positional arguments: 'amount' and 'date'")
+2023-10-19 12:07:43|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 12:07:53|DEBUG|Created account: 1
+2023-10-19 12:07:53|DEBUG|Saved to bank.db
+2023-10-19 12:07:54|ERROR|TypeError: TypeError("BankGUI._add_transaction() missing 2 required positional arguments: 'amount' and 'date'")
+2023-10-19 12:07:58|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 12:08:02|DEBUG|Created account: 1
+2023-10-19 12:08:02|DEBUG|Saved to bank.db
+2023-10-19 12:08:04|ERROR|TypeError: TypeError("BankGUI._add_transaction() missing 2 required positional arguments: 'amount' and 'date'")
+2023-10-19 12:11:23|DEBUG|Loaded from bank.db
+2023-10-19 12:13:26|DEBUG|Loaded from bank.db
+2023-10-19 12:13:35|DEBUG|Loaded from bank.db
+2023-10-19 12:14:21|DEBUG|Loaded from bank.db
+2023-10-19 12:14:27|DEBUG|Loaded from bank.db
+2023-10-19 12:14:33|DEBUG|Loaded from bank.db
+2023-10-19 12:14:42|DEBUG|Loaded from bank.db
+2023-10-19 12:14:53|DEBUG|Loaded from bank.db
+2023-10-19 12:19:30|DEBUG|Loaded from bank.db
+2023-10-19 12:19:36|DEBUG|Created account: 2
+2023-10-19 12:19:36|DEBUG|Saved to bank.db
+2023-10-19 12:24:37|DEBUG|Loaded from bank.db
+2023-10-19 12:24:52|DEBUG|Created transaction: 1, 200
+2023-10-19 12:24:52|DEBUG|Saved to bank.db
+2023-10-19 12:25:01|ERROR|AttributeError: AttributeError("'Transaction' object has no attribute 'amt'")
+2023-10-19 12:26:33|DEBUG|Loaded from bank.db
+2023-10-19 12:26:39|ERROR|AttributeError: AttributeError("'Transaction' object has no attribute 'amt'")
+2023-10-19 12:29:06|DEBUG|Loaded from bank.db
+2023-10-19 12:35:12|DEBUG|Loaded from bank.db
+2023-10-19 12:35:36|DEBUG|Created account: 3
+2023-10-19 12:35:36|DEBUG|Saved to bank.db
+2023-10-19 12:35:50|DEBUG|Created transaction: 3, 100
+2023-10-19 12:35:50|DEBUG|Saved to bank.db
+2023-10-19 12:36:56|DEBUG|Loaded from bank.db
+2023-10-19 12:37:37|DEBUG|Loaded from bank.db
+2023-10-19 12:41:28|DEBUG|Loaded from bank.db
+2023-10-19 12:44:26|DEBUG|Loaded from bank.db
+2023-10-19 12:44:43|DEBUG|Created transaction: 3, 20
+2023-10-19 12:44:59|DEBUG|Created transaction: 2, 20
+2023-10-19 12:44:59|DEBUG|Saved to bank.db
+2023-10-19 12:45:10|DEBUG|Created transaction: 1, 30
+2023-10-19 12:45:10|DEBUG|Saved to bank.db
+2023-10-19 12:49:49|DEBUG|Loaded from bank.db
+2023-10-19 12:50:11|DEBUG|Loaded from bank.db
+2023-10-19 12:51:23|DEBUG|Loaded from bank.db
+2023-10-19 12:55:03|DEBUG|Loaded from bank.db
+2023-10-19 12:55:29|DEBUG|Loaded from bank.db
+2023-10-19 13:04:06|DEBUG|Loaded from bank.db
+2023-10-19 13:04:11|DEBUG|Created account: 4
+2023-10-19 13:04:11|DEBUG|Saved to bank.db
+2023-10-19 13:05:27|DEBUG|Loaded from bank.db
+2023-10-19 13:05:40|ERROR|ValueError: ValueError("time data '2012-12-12' does not match format '%m-%d-%Y'")
+2023-10-19 13:06:18|DEBUG|Loaded from bank.db
+2023-10-19 13:06:29|DEBUG|Created transaction: 4, 100
+2023-10-19 13:06:29|DEBUG|Saved to bank.db
+2023-10-19 13:07:12|DEBUG|Loaded from bank.db
+2023-10-19 13:07:33|DEBUG|Created transaction: 4, 200
+2023-10-19 13:07:33|DEBUG|Saved to bank.db
+2023-10-19 13:10:57|DEBUG|Loaded from bank.db
+2023-10-19 13:11:01|ERROR|TclError: TclError('cannot use geometry manager pack inside . which already has slaves managed by grid')
+2023-10-19 13:15:45|DEBUG|Loaded from bank.db
+2023-10-19 13:17:39|DEBUG|Loaded from bank.db
+2023-10-19 13:17:47|ERROR|AttributeError: AttributeError("'BankGUI' object has no attribute 'add_callback'")
+2023-10-19 13:20:14|DEBUG|Loaded from bank.db
+2023-10-19 13:20:22|ERROR|AttributeError: AttributeError("'BankGUI' object has no attribute '_open_account_action'")
+2023-10-19 13:20:49|DEBUG|Loaded from bank.db
+2023-10-19 13:20:54|DEBUG|Created account: 5
+2023-10-19 13:20:54|DEBUG|Saved to bank.db
+2023-10-19 13:20:58|DEBUG|Created account: 6
+2023-10-19 13:20:58|DEBUG|Saved to bank.db
+2023-10-19 13:21:23|DEBUG|Loaded from bank.db
+2023-10-19 13:26:36|DEBUG|Loaded from bank.db
+2023-10-19 13:26:45|DEBUG|Created account: 7
+2023-10-19 13:26:45|DEBUG|Saved to bank.db
+2023-10-19 13:30:30|DEBUG|Loaded from bank.db
+2023-10-19 13:45:43|DEBUG|Loaded from bank.db
+2023-10-19 13:45:54|DEBUG|Created account: 8
+2023-10-19 13:45:54|DEBUG|Saved to bank.db
+2023-10-19 13:48:07|DEBUG|Loaded from bank.db
+2023-10-19 13:48:13|ERROR|AttributeError: AttributeError("'NoneType' object has no attribute 'get_transactions'")
+2023-10-19 13:49:36|DEBUG|Loaded from bank.db
+2023-10-19 13:49:41|ERROR|AttributeError: AttributeError("'NoneType' object has no attribute 'get_transactions'")
+2023-10-19 13:55:20|DEBUG|Loaded from bank.db
+2023-10-19 13:56:14|DEBUG|Loaded from bank.db
+2023-10-19 14:02:35|DEBUG|Loaded from bank.db
+2023-10-19 14:03:46|DEBUG|Loaded from bank.db
+2023-10-19 14:04:37|DEBUG|Loaded from bank.db
+2023-10-19 14:04:57|DEBUG|Loaded from bank.db
+2023-10-19 14:07:03|DEBUG|Loaded from bank.db
+2023-10-19 14:09:05|DEBUG|Loaded from bank.db
+2023-10-19 14:09:26|DEBUG|Loaded from bank.db
+2023-10-19 14:10:12|DEBUG|Created transaction: 7, 200
+2023-10-19 14:10:12|DEBUG|Saved to bank.db
+2023-10-19 14:15:16|DEBUG|Loaded from bank.db
+2023-10-19 14:18:22|DEBUG|Loaded from bank.db
+2023-10-19 14:20:37|DEBUG|Loaded from bank.db
+2023-10-19 14:21:55|DEBUG|Loaded from bank.db
+2023-10-19 14:21:59|ERROR|AttributeError: AttributeError("'NoneType' object has no attribute 'get_transactions'")
+2023-10-19 14:24:13|DEBUG|Loaded from bank.db
+2023-10-19 14:24:17|ERROR|AttributeError: AttributeError("'NoneType' object has no attribute 'get_transactions'")
+2023-10-19 14:25:29|DEBUG|Saved to bank.db
+2023-10-19 14:25:37|DEBUG|Created account: 1
+2023-10-19 14:25:37|DEBUG|Saved to bank.db
+2023-10-19 14:25:51|DEBUG|Created transaction: 1, 200
+2023-10-19 14:25:51|DEBUG|Saved to bank.db
+2023-10-19 14:31:19|DEBUG|Loaded from bank.db
+2023-10-19 14:31:22|ERROR|AttributeError: AttributeError("'NoneType' object has no attribute 'get_transactions'")
+2023-10-19 14:32:22|DEBUG|Loaded from bank.db
+2023-10-19 14:33:11|DEBUG|Loaded from bank.db
+2023-10-19 14:33:38|DEBUG|Loaded from bank.db
+2023-10-19 14:34:12|DEBUG|Loaded from bank.db
+2023-10-19 14:44:20|DEBUG|Loaded from bank.db
+2023-10-19 14:46:13|DEBUG|Created account: 2
+2023-10-19 14:46:13|DEBUG|Saved to bank.db
+2023-10-19 14:46:35|DEBUG|Loaded from bank.db
+2023-10-19 14:46:37|DEBUG|Created transaction: 1, 0.82000000000000000000
+2023-10-19 14:46:37|DEBUG|Triggered fees and interest
+2023-10-19 14:46:37|DEBUG|Saved to bank.db
+2023-10-19 14:52:46|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 14:52:46|ERROR|AttributeError: "'BankCLI' object has no attribute '_summary'"
+2023-10-19 14:53:46|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 14:53:46|ERROR|AttributeError: "'BankCLI' object has no attribute '_summary'"
+2023-10-19 14:54:50|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 14:54:50|ERROR|AttributeError: "'BankCLI' object has no attribute '_summary'"
+2023-10-19 14:56:20|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 14:56:31|DEBUG|Saved to bank.db
+2023-10-19 14:58:08|DEBUG|Created account: 1
+2023-10-19 14:58:08|DEBUG|Saved to bank.db
+2023-10-19 14:58:17|DEBUG|Created transaction: 1, 100
+2023-10-19 14:58:17|DEBUG|Added transaction to bank.db
+2023-10-19 15:00:48|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:00:51|DEBUG|Created account: 1
+2023-10-19 15:00:51|DEBUG|Saved to bank.db
+2023-10-19 15:00:57|DEBUG|Created transaction: 1, 120
+2023-10-19 15:00:57|DEBUG|Added transaction to bank.db
+2023-10-19 15:01:48|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:01:51|DEBUG|Created account: 1
+2023-10-19 15:01:51|DEBUG|Saved to bank.db
+2023-10-19 15:01:56|DEBUG|Created transaction: 1, 120
+2023-10-19 15:01:56|DEBUG|Added transaction to bank.db
+2023-10-19 15:03:04|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:03:09|DEBUG|Saved to bank.db
+2023-10-19 15:03:18|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:03:25|DEBUG|Saved to bank.db
+2023-10-19 15:03:38|DEBUG|Created account: 1
+2023-10-19 15:03:38|DEBUG|Saved to bank.db
+2023-10-19 15:03:45|DEBUG|Created transaction: 1, 120
+2023-10-19 15:03:45|ERROR|TypeError: "unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'"
+2023-10-19 15:05:13|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:05:16|DEBUG|Created account: 1
+2023-10-19 15:05:16|DEBUG|Saved to bank.db
+2023-10-19 15:05:22|DEBUG|Created transaction: 1, 120
+2023-10-19 15:05:22|DEBUG|Added transaction to bank.db
+2023-10-19 15:11:15|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:11:19|DEBUG|Created account: 1
+2023-10-19 15:11:19|DEBUG|Saved to bank.db
+2023-10-19 15:11:50|DEBUG|Created transaction: 1, 500
+2023-10-19 15:11:50|DEBUG|Added transaction to bank.db
+2023-10-19 15:12:00|DEBUG|Created account: 2
+2023-10-19 15:12:00|DEBUG|Saved to bank.db
+2023-10-19 15:12:11|DEBUG|Created transaction: 2, 50
+2023-10-19 15:12:11|DEBUG|Added transaction to bank.db
+2023-10-19 15:12:42|ERROR|ValueError: "invalid literal for int() with base 10: ''"
+2023-10-19 15:12:45|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:12:49|DEBUG|Created account: 1
+2023-10-19 15:12:49|DEBUG|Saved to bank.db
+2023-10-19 15:12:56|DEBUG|Created transaction: 1, 60
+2023-10-19 15:12:56|DEBUG|Added transaction to bank.db
+2023-10-19 15:12:57|DEBUG|Created transaction: 1, 0.0480000000
+2023-10-19 15:12:57|DEBUG|Created transaction: 1, -5.44
+2023-10-19 15:12:57|ERROR|TypeError: "unsupported operand type(s) for +=: 'decimal.Decimal' and 'float'"
+2023-10-19 15:14:25|DEBUG|Created a new Bank instance and saved to bank.db
+2023-10-19 15:14:28|DEBUG|Created account: 1
+2023-10-19 15:14:28|DEBUG|Saved to bank.db
+2023-10-19 15:14:33|DEBUG|Created transaction: 1, 60
+2023-10-19 15:14:33|DEBUG|Added transaction to bank.db
+2023-10-19 15:14:34|DEBUG|Created transaction: 1, 0.0480000000
+2023-10-19 15:14:34|DEBUG|Created transaction: 1, -5.4400000000
+2023-10-19 15:14:34|DEBUG|Triggered interest and fees
+2023-10-19 15:17:17|DEBUG|Created account: 2
+2023-10-19 15:17:17|DEBUG|Saved to bank.db
+2023-10-19 15:17:24|DEBUG|Created transaction: 2, 120
+2023-10-19 15:17:24|DEBUG|Added transaction to bank.db
+2023-10-19 15:17:29|DEBUG|Created account: 3
+2023-10-19 15:17:29|DEBUG|Saved to bank.db
+2023-10-19 15:21:12|DEBUG|Loaded Bank instance from bank.db
+2023-10-19 15:21:15|DEBUG|Created account: 4
+2023-10-19 15:21:15|DEBUG|Saved to bank.db
+2023-10-19 15:21:24|DEBUG|Loaded Bank instance from bank.db
+2023-10-19 15:39:54|DEBUG|Loaded from bank.db
+2023-10-19 15:41:15|DEBUG|Loaded from bank.db
+2023-10-19 15:51:34|DEBUG|Loaded from bank.db
+2023-10-19 15:51:45|DEBUG|Created transaction: 3, 200
+2023-10-19 15:51:45|DEBUG|Saved to bank.db
+2023-10-19 15:51:47|DEBUG|Created transaction: 3, 0.16000000000000000000
+2023-10-19 15:51:47|DEBUG|Triggered fees and interest
+2023-10-19 15:51:47|DEBUG|Saved to bank.db
+2023-10-19 15:54:34|DEBUG|Loaded from bank.db
+2023-10-19 15:57:54|DEBUG|Loaded from bank.db
+2023-10-19 15:58:30|DEBUG|Created transaction: 1, 12
+2023-10-19 15:58:49|DEBUG|Created transaction: 2, 30
+2023-10-19 15:58:49|DEBUG|Saved to bank.db
+2023-10-19 16:02:01|DEBUG|Loaded from bank.db
+2023-10-19 16:02:11|DEBUG|Created transaction: 1, 200
+2023-10-19 16:02:25|DEBUG|Created transaction: 1, 450
+2023-10-19 16:02:38|DEBUG|Created transaction: 4, 200
+2023-10-19 16:02:38|DEBUG|Saved to bank.db
+2023-10-19 16:05:09|DEBUG|Loaded from bank.db
+2023-10-19 16:05:47|DEBUG|Created transaction: 4, 0.82000000000000000000
+2023-10-19 16:05:47|DEBUG|Triggered fees and interest
+2023-10-19 16:05:47|DEBUG|Saved to bank.db
+2023-10-19 16:06:02|DEBUG|Created transaction: 4, -50
+2023-10-19 16:06:02|DEBUG|Saved to bank.db
+2023-10-19 16:08:29|DEBUG|Loaded from bank.db
+2023-10-19 16:08:42|DEBUG|Created transaction: 4, 0.61836200000000000000
+2023-10-19 16:08:42|DEBUG|Triggered fees and interest
+2023-10-19 16:08:42|DEBUG|Saved to bank.db
+2023-10-19 16:10:30|DEBUG|Loaded from bank.db
+2023-10-19 16:10:46|DEBUG|Loaded from bank.db
+2023-10-19 16:15:21|DEBUG|Loaded from bank.db
+2023-10-19 16:15:32|DEBUG|Loaded from bank.db
+2023-10-19 16:15:35|ERROR|NameError: NameError("name 'on_entry_click' is not defined")
+2023-10-19 16:15:43|DEBUG|Loaded from bank.db
+2023-10-19 16:19:49|DEBUG|Loaded from bank.db
+2023-10-19 16:19:52|ERROR|NameError: NameError("name 'on_entry_click' is not defined")
+2023-10-19 16:20:15|DEBUG|Loaded from bank.db
+2023-10-19 16:20:50|DEBUG|Loaded from bank.db
+2023-10-19 16:20:52|ERROR|NameError: NameError("name 'on_entry_click' is not defined")
+2023-10-19 16:22:26|DEBUG|Loaded from bank.db
+2023-10-19 16:23:11|DEBUG|Loaded from bank.db
+2023-10-19 16:23:31|DEBUG|Loaded from bank.db
+2023-10-19 16:28:10|DEBUG|Loaded from bank.db
+2023-10-19 16:28:30|DEBUG|Created transaction: 3, 100
+2023-10-19 16:28:30|DEBUG|Saved to bank.db
+2023-10-19 23:17:55|DEBUG|Loaded from bank.db
+2023-10-19 23:18:16|DEBUG|Loaded from bank.db
+2023-10-19 23:18:56|DEBUG|Loaded from bank.db
+2023-10-19 23:19:34|DEBUG|Loaded from bank.db
+2023-10-19 23:20:34|DEBUG|Loaded from bank.db
+2023-10-19 23:24:07|DEBUG|Created account: 5
+2023-10-19 23:24:07|DEBUG|Saved to bank.db
+2023-10-19 23:24:49|DEBUG|Created transaction: 1, -7
+2023-10-19 23:25:16|DEBUG|Created transaction: 1, -7
+2023-10-19 23:25:41|DEBUG|Created transaction: 1, -7
+2023-10-19 23:25:41|DEBUG|Saved to bank.db
+2023-10-19 23:26:05|DEBUG|Created transaction: 1, 0.03808640000000000000
+2023-10-19 23:26:05|DEBUG|Created transaction: 1, -5.4400000000
+2023-10-19 23:26:05|DEBUG|Triggered fees and interest
+2023-10-19 23:26:05|DEBUG|Saved to bank.db
+2023-10-19 23:26:23|DEBUG|Created account: 6
+2023-10-19 23:26:23|DEBUG|Saved to bank.db
+2023-10-19 23:37:23|DEBUG|Loaded from bank.db
